@@ -9,6 +9,7 @@ export default function Menu(){
                 <div className={stylesLayout.topoAzul}>Planta de Manufatura Avançada</div>
                 <div className={stylesLayout.ladoAzul}></div>
             </div>
+            
             <div className={stylesLayout.wrapper}>
                 <button className={stylesLayout.button}>Wiki</button>
                 <button className={stylesLayout.button}>Previsão</button>
