@@ -11,7 +11,7 @@ export default function Menu() {
             </div>
 
             <div className={stylesLayout.wrapper}>
-                <Link href={``}>
+                <Link href={`telaWiki`}>
                     <button className={stylesLayout.button}>Wiki</button>
                 </Link>
                 <Link href={`telaPrevisao`}>

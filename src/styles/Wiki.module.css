@@ -1,0 +1,30 @@
+.wiki {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuBTN {
+
+    width: 177px;
+    height: 75px;
+  
+    color: #fff;
+    background-color: #E03C3D;
+    stroke: white;
+  
+    font-size: 50px;
+    font-family: Staatliches;
+  }
+  
+  .wrapperMenu {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: fixed;
+    left: 85%;
+    top: 80%;
+  
+    justify-content: center;
+    align-items: center;
+  }
