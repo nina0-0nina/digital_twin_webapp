@@ -1,3 +1,4 @@
+import stylesPrevisao from '../src/styles/Previsao.module.css'
 import stylesLayout from '../src/styles/Layout.module.css'
 import Link from "next/link";
 
@@ -10,7 +11,7 @@ export default function Previsao() {
                 <div className={stylesLayout.ladoAzul}></div>
             </div>
 
-            <div className={stylesLayout.wrapper}>
+            <div className={stylesPrevisao.wrapper}>
                 <button className={stylesLayout.button}>Previsão</button>
             </div>
             <div className={stylesLayout.wrapperMenu}>

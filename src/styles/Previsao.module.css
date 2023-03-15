@@ -1,0 +1,11 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: fixed;
+    left: 35%;
+    top: 40%;
+
+    justify-content: center;
+    align-items: center;
+}
