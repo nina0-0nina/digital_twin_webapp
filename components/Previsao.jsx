@@ -1,4 +1,5 @@
 import stylesLayout from '../src/styles/Layout.module.css'
+import Link from "next/link";
 
 export default function Previsao() {
     return (
@@ -11,6 +12,12 @@ export default function Previsao() {
 
             <div className={stylesLayout.wrapper}>
                 <button className={stylesLayout.button}>Previsão</button>
+            </div>
+            <div className={stylesLayout.wrapperMenu}>
+                <Link href={`telaMenu`}>
+                    <button className={stylesLayout.menuBTN}>Menu</button>
+                </Link>
+
             </div>
         </div>
 

@@ -14,10 +14,10 @@ export default function Menu() {
                 <Link href={``}>
                     <button className={stylesLayout.button}>Wiki</button>
                 </Link>
-                <Link href={`Previsao`}>
+                <Link href={`telaPrevisao`}>
                     <button className={stylesLayout.button}>Previsão</button>
                 </Link>
-                
+
             </div>
         </div>
 
