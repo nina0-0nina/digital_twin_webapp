@@ -1,4 +1,5 @@
 import stylesLayout from '../src/styles/Layout.module.css'
+import Link from "next/link";
 
 export default function Menu() {
     return (
@@ -10,8 +11,13 @@ export default function Menu() {
             </div>
 
             <div className={stylesLayout.wrapper}>
-                <button className={stylesLayout.button}>Wiki</button>
-                <button className={stylesLayout.button}>Previsão</button>
+                <Link href={``}>
+                    <button className={stylesLayout.button}>Wiki</button>
+                </Link>
+                <Link href={`Previsao`}>
+                    <button className={stylesLayout.button}>Previsão</button>
+                </Link>
+                
             </div>
         </div>
 
